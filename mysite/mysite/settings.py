@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '0*=6(l7=tbl2fi80byxab7e#z#u6fld9hm@xe9*c_ol_i0&$wc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['wallst-v1.herokuapp.com']
+ALLOWED_HOSTS = ['wallst-v1.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
